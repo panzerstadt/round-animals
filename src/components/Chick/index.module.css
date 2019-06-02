@@ -1,0 +1,27 @@
+.box {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+
+.chick {
+  overflow: visible;
+  position: relative;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid lightgrey; */
+}
+
+.eyes {
+  position: absolute;
+  width: 100%;
+  bottom: 200px;
+}
+
+.feet {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: -10px;
+}
